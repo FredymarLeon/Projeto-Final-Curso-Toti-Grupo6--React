@@ -1,0 +1,124 @@
+{
+  "servicos": [
+    {
+      "id": 1,
+      "peca": "Calca Jeans",
+      "ajuste": "Bainha original",
+      "preco": "R$ 20.00"
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3,
+      "peca": "Saia",
+      "ajuste": "Ajustar largura de cintura",
+      "preco": "R$ 25.00"
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 5,
+      "peca": "Calca Jeans masculina",
+      "ajuste": "Bainha original",
+      "preco": "R$ 28.00"
+    },
+    {
+      "peca": "calca jeans masculina",
+      "ajuste": "ajustar altura de cos",
+      "preco": "R$ 45,00",
+      "id": 6
+    },
+    {
+      "peca": "calca jeans feminina",
+      "ajuste": "ajustar largura de cintura",
+      "preco": "R$ 30,00",
+      "id": 7
+    },
+    {
+      "peca": "Jaqueta jeans feminina",
+      "ajuste": "Diminuir comprimento dos punhos",
+      "preco": "R4 36,00",
+      "id": 8
+    },
+    {
+      "peca": "Jaqueta jeans feminina",
+      "ajuste": "Diminuir comprimento dos punhos",
+      "preco": "R4 36,00",
+      "id": 10
+    },
+    {
+      "peca": "camisa",
+      "ajuste": "aumentar a largura total",
+      "preco": "R$ 35,00",
+      "id": 11
+    },
+    {
+      "peca": "calca jeans masculina",
+      "ajuste": "ajustar largura de cintura",
+      "preco": "R$ 30,00",
+      "id": 13
+    },
+    {
+      "peca": "calca jeans feminina",
+      "ajuste": "Diminuir comprimento das pernas",
+      "preco": "R$ 30,00",
+      "id": 14
+    },
+    {
+      "id": 15,
+      "peca": "Blusa",
+      "ajuste": "Diminuir largura de cintura",
+      "preco": "R$ 36.00"
+    },
+    {
+      "peca": "calca jeans masculina",
+      "ajuste": "Diminuir comprimento das pernas",
+      "preco": "R$ 45,00",
+      "id": 16
+    },
+    {
+      "peca": "Saia de tule",
+      "ajuste": "Diminuir comprimento",
+      "preco": "65,00",
+      "id": 17
+    },
+    {
+      "peca": "Saia de tule",
+      "ajuste": "Diminuir comprimento",
+      "preco": "65,00",
+      "id": 18
+    },
+    {
+      "peca": "Saia de tule",
+      "ajuste": "Diminuir comprimento",
+      "preco": "65,00",
+      "id": 19
+    },
+    {
+      "peca": "Saia de tule",
+      "ajuste": "Diminuir comprimento",
+      "preco": "65,00",
+      "id": 20
+    },
+    {
+      "peca": "calca jeans feminina",
+      "ajuste": "aumentar a largura total",
+      "preco": "65,00",
+      "id": 21
+    },
+    {
+      "peca": "Vestido de festa",
+      "ajuste": "Diminuir comprimento e fazer bainha de lenço",
+      "preco": "R$ 120,00",
+      "id": 22
+    },
+    {
+      "peca": "Blazer de linho fino",
+      "ajuste": "Ajustar largura de cintura",
+      "preco": "R$ 125,00",
+      "id": 23
+    }
+  ]
+}
