@@ -138,7 +138,6 @@
       "preco": "R$ 30,00",
       "id": 28
     },
-
     {
       "peca": "Jaqueta jeans feminina",
       "ajuste": "ajustar altura de ombros",
@@ -150,6 +149,12 @@
       "ajuste": "ajustar altura de cos",
       "preco": "R$ 120,00",
       "id": 38
+    },
+    {
+      "peca": "Calca Jeans",
+      "ajuste": "Bainha original",
+      "preco": "R$20.00",
+      "id": 39
     }
   ]
 }
