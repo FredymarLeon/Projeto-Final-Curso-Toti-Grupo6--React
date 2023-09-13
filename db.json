@@ -155,6 +155,24 @@
       "ajuste": "Bainha original",
       "preco": "R$20.00",
       "id": 39
+    },
+    {
+      "peca": "",
+      "ajuste": "",
+      "preco": "",
+      "id": 40
+    },
+    {
+      "peca": "",
+      "ajuste": "",
+      "preco": "",
+      "id": 41
+    },
+    {
+      "peca": "camisa",
+      "ajuste": "Bainha original",
+      "preco": "R$20.00",
+      "id": 42
     }
   ]
 }

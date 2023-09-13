@@ -2,10 +2,13 @@ import React, {useState, useEffect} from "react";
 import CadastrarServico from "./CadastrarServico";
 import "./ListaDeServico.css";
 import Table from 'react-bootstrap/Table';
+import ButtonGroup from 'react-bootstrap/ButtonGroup';
+import { Button } from "react-bootstrap";
+
 
 function ListaDeServicos(){
     const [servicos, setServicos]= useState([]);
-    const [servicoEditado, setServicoEditado] = useState(null);
+
 
     useEffect(()=>{
         fetch("http://localhost:5000/servicos")
@@ -17,23 +20,6 @@ function ListaDeServicos(){
         const handleCadastrarServico = (servico)=>{
             setServicos((prevServico)=> [...prevServico, servico]);
         }
-
-        const handleEliminarServico = (id) => {
-            setServicos((prevServicos) => prevServicos.filter((servico) => servico.id !== id));
-        };
-
-        const handleEditarServico = (servico) => {
-            setServicoEditado(servico);
-        };
-
-        const handleSalvarServicoEditado = (servicoEditado) => {
-            setServicos((prevServicos) =>
-              prevServicos.map((servico) =>
-                servico.id === servicoEditado.id ? servicoEditado : servico
-              )
-            );
-            setServicoEditado(null);
-        };
 
     return(
         <><CadastrarServico onCadastrarServico={handleCadastrarServico}/>
@@ -58,6 +44,11 @@ function ListaDeServicos(){
                     <td> {servico.peca}</td>
                     <td> {servico.ajuste}</td>
                     <td> {servico.preco}</td>
+                    <td>
+                        <ButtonGroup aria-label="Basic example">
+                            <Button variant="primary">Editar</Button>
+                            <Button variant="danger">Deletar</Button>
+                        </ButtonGroup></td>
                 </tr>
             ))}
             </tbody>
