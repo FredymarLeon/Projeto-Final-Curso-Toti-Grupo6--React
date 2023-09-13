@@ -1,0 +1,109 @@
+{
+  "servicos": [
+    {
+      "Calcas": [
+        {
+          "id": 1,
+          "peca": "Calca Jeans",
+          "ajuste": "Bainha original",
+          "preco": "R$ 20.00"
+        },
+        {
+          "id": 5,
+          "peca": "Calca Jeans masculina",
+          "ajuste": "Bainha original",
+          "preco": "R$ 28.00"
+        },
+        {
+          "peca": "calca jeans masculina",
+          "ajuste": "ajustar altura de cos",
+          "preco": "R$ 45,00",
+          "id": 6
+        },
+        {
+          "peca": "calca jeans feminina",
+          "ajuste": "ajustar largura de cintura",
+          "preco": "R$ 30,00",
+          "id": 7
+        }
+      ]
+    },
+    
+    {
+      "Saias": [
+        {
+          "id": 3,
+          "peca": "Saia de tule e malha",
+          "ajuste": "Ajustar largura de cintura",
+          "preco": "R$ 25.00"
+        },
+        {
+          "peca": "Saia de tule",
+          "ajuste": "Diminuir comprimento",
+          "preco": "65,00",
+          "id": 19
+        }
+      ]
+    },
+
+    {
+      "Jaquetas": [
+        {
+          "peca": "Jaqueta jeans feminina",
+          "ajuste": "Diminuir comprimento dos punhos",
+          "preco": "R4 36,00",
+          "id": 8
+        },
+        {
+          "peca": "Jaqueta jeans feminina",
+          "ajuste": "Diminuir altura do ombro",
+          "preco": "R$ 56,00",
+          "id": 10
+        }
+      ]
+    },
+
+    {
+      "Camisa Social": [
+        {
+          "peca": "camisa",
+          "ajuste": "aumentar a largura total",
+          "preco": "R$ 35,00",
+          "id": 11
+        }
+      ]
+    },
+
+    {
+      "Blusas": [
+        {
+          "id": 15,
+          "peca": "Blusa",
+          "ajuste": "Diminuir largura de cintura",
+          "preco": "R$ 36.00"
+        }
+      ]
+    },
+    
+    {
+      "Vestidos": [
+        {
+          "peca": "Vestido de festa",
+          "ajuste": "Diminuir comprimento e fazer bainha de lenço",
+          "preco": "R$ 120,00",
+          "id": 22
+        }
+      ]
+    },
+    {
+      "Blazer": [
+        {
+          "peca": "Blazer de linho fino",
+          "ajuste": "Ajustar largura de cintura",
+          "preco": "R$ 125,00",
+          "id": 23
+        }
+      ]
+    }
+  ]
+}

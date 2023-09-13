@@ -1,4 +1,9 @@
 import React, {useState} from "react";
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
+import Card from 'react-bootstrap/Card';
+import Container from 'react-bootstrap/Container';
+
 
 function CadastrarServico({onCadastrarServico}){
     const [peca, setPeca] = useState("");
@@ -21,47 +26,54 @@ function CadastrarServico({onCadastrarServico}){
             setPeca("");
             setAjuste("");
             setPreco("");
+            alert("Serviço cadastrado com sucesso!")
         })
         .catch(error=>{
             console.log(error);
         });
     };
     return (
-        <form onSubmit={handleSubmit}className="add-servico-form">
-            <h2 className="subtitle">Adicionar Servico</h2>
-            <div className="form-group">
-                <label htmlFor="nome" className="label">Peca</label>
-                <input
-                    type="text"
-                    value={peca}
-                    onChange={(e)=>setPeca(e.target.value)}   className="input"
-                    id="peca"
-                    autoComplete="none">
-                </input>
-            </div>
-            <div className="form-group">
-                <label htmlFor="ajuste" className="label">Ajuste</label>
-                <input
-                    type="text"
-                    value={ajuste}
-                    onChange={(e) => setAjuste(e.target.value)}
-                    className="input"
-                    id="ajuste"
-                    autoComplete="none"></input>
-            </div>
-            <div className="form-group">
-                <label htmlFor="preco" className="label">Preco</label>
-                <input
-                    type="text"
-                    value={preco}
-                    onChange={(e) => setPreco(e.target.value)}
-                    className="input"
-                    id="preco"
-                    autoComplete="none">
-                </input>
-            </div>
-            <button type="submit" className="button">Adicionar</button>
-        </form>
+
+        <Container> 
+            <Card>
+                <Card.Header as="h1">Cadastrar Serviço</Card.Header>
+                <Card.Body>
+                    <Form onSubmit={handleSubmit} className="add-servico-form">
+                            <Form.Group className="mb-3">
+                                <Form.Label as="h4">Peça</Form.Label>
+                                <Form.Control
+                                    type="text" placeholder="Nome da roupa: calça, saia.."
+                                    value={peca}
+                                    onChange={(e)=>setPeca(e.target.value)}
+                                    id="peca"
+                                    autoComplete="none">
+                                </Form.Control>
+                            </Form.Group>
+                            <Form.Group className="mb-3">
+                                <Form.Label as="h4">Ajuste</Form.Label>
+                                <Form.Control
+                                    type="text" placeholder="Descripção do Ajuste"
+                                    value={ajuste}
+                                    onChange={(e)=>setAjuste(e.target.value)}
+                                    id="ajuste"
+                                    autoComplete="none">
+                                </Form.Control>
+                                </Form.Group>
+                            <Form.Group className="mb-3">
+                                <Form.Label as="h4">Preço</Form.Label>
+                                <Form.Control                                        type="text" placeholder="Valor do serviço em R$"
+                                    value={preco}
+                                    onChange={(e)=>setPreco(e.target.value)}
+                                    id="preco"
+                                    autoComplete="none">
+                                </Form.Control>
+                            </Form.Group>
+                            <Button type="submit" variant="primary">Adicionar Serviço</Button>
+                    </Form>
+                </Card.Body>
+            </Card>
+
+        </Container>
     )
 };
 

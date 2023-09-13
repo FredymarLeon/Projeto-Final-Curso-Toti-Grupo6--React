@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react";
 import CadastrarServico from "./CadastrarServico";
 import "./ListaDeServico.css";
+import Table from 'react-bootstrap/Table';
 
 function ListaDeServicos(){
     const [servicos, setServicos]= useState([]);
@@ -35,24 +36,33 @@ function ListaDeServicos(){
         };
 
     return(
-        <div className="container"><CadastrarServico onCadastrarServico={handleCadastrarServico}/>
-            <h1 className="title">Lista de Servicos</h1>
+        <><CadastrarServico onCadastrarServico={handleCadastrarServico}/>
 
-            <ul className="servico-list">
-                {servicos.map((servico)=> (
-                    <li key={servico.id} className="servico-list-item">
-                        <div className="servico-info">
-                            <div className="servico-peca">
-                            {servico.peca}</div>
-                            <div className="servico-ajuste">
-                            {servico.ajuste}</div>
-                            <div className="servico-preco">
-                            {servico.preco}</div>
-                        </div>
-                    </li>
-                ))}
-            </ul>
-        </div>
+        <h1 className="title">Lista de Servicos</h1>
+
+        <Table striped bordered hover size="sm">
+    
+            <thead>
+                <tr>
+                <th>#</th>
+                <th>Peça</th>
+                <th>Ajuste</th>
+                <th>Preço</th>
+                </tr>
+            </thead>
+
+            <tbody>
+            {servicos.map((servico)=> (
+                <tr>
+                    <th>{servico.id}</th>
+                    <td> {servico.peca}</td>
+                    <td> {servico.ajuste}</td>
+                    <td> {servico.preco}</td>
+                </tr>
+            ))}
+            </tbody>
+        </Table>
+        </>
     );
 }
 

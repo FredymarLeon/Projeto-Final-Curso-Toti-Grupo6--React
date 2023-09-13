@@ -7,16 +7,10 @@
       "preco": "R$ 20.00"
     },
     {
-      "id": 2
-    },
-    {
       "id": 3,
       "peca": "Saia",
       "ajuste": "Ajustar largura de cintura",
       "preco": "R$ 25.00"
-    },
-    {
-      "id": 4
     },
     {
       "id": 5,
@@ -119,6 +113,43 @@
       "ajuste": "Ajustar largura de cintura",
       "preco": "R$ 125,00",
       "id": 23
+    },
+    {
+      "peca": "calca jeans masculina",
+      "ajuste": "ajustar altura de cos",
+      "preco": "R$ 30,00",
+      "id": 24
+    },
+    {
+      "peca": "Blusa",
+      "ajuste": "Ombros",
+      "preco": "R$ 26,00",
+      "id": 25
+    },
+    {
+      "peca": "Camisa infantil de malha",
+      "ajuste": "Diminuir comprimento",
+      "preco": "15,00",
+      "id": 26
+    },
+    {
+      "peca": "Jaqueta jeans feminina",
+      "ajuste": "Diminuir comprimento",
+      "preco": "R$ 30,00",
+      "id": 28
+    },
+
+    {
+      "peca": "Jaqueta jeans feminina",
+      "ajuste": "ajustar altura de ombros",
+      "preco": "R$ 65,00",
+      "id": 31
+    },
+    {
+      "peca": "calca jeans masculina",
+      "ajuste": "ajustar altura de cos",
+      "preco": "R$ 120,00",
+      "id": 38
     }
   ]
 }
